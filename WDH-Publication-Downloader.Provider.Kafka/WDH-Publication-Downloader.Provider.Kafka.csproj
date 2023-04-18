@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>WDH_Publication_Downloader.Provider.Kafka</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Consumers\" />
+    <Folder Include="Extensions\Configuration\" />
+    <Folder Include="Producers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WDH-Publication-Downloader.Abstractions\WDH-Publication-Downloader.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

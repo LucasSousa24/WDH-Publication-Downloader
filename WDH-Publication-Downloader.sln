@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1C1BCF04-1781-4798-A73F-6A0F0F1FC72A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A67466FE-D2CA-453C-8369-4A4256D1F9FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2D65042E-F668-4B78-BC52-CEB828090059}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provider", "Provider", "{D2C2CA67-DAE7-4EE1-8D8B-5DD19DDA2C44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstractions", "Abstractions", "{DEBC4174-ADF3-41A7-8EE8-1EE1F7803925}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{43BAF39D-7753-4390-9904-1B1E616188C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WDH-Publication-Downloader.API", "WDH-Publication-Downloader.API\WDH-Publication-Downloader.API.csproj", "{673E69D1-0618-4C37-B76E-296D0B8651E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WDH-Publication-Downloader.Abstractions", "WDH-Publication-Downloader.Abstractions\WDH-Publication-Downloader.Abstractions.csproj", "{CC8217AB-B35D-4804-9974-526F7C2CF73D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WDH-Publication-Downloader.Core", "WDH-Publication-Downloader.Core\WDH-Publication-Downloader.Core.csproj", "{A8ED9F15-CF7D-4331-841C-506C3DAD75ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WDH-Publication-Downloader.Provider.AttachmentService", "WDH-Publication-Downloader.Provider.AttachmentService\WDH-Publication-Downloader.Provider.AttachmentService.csproj", "{EBD269C7-FD98-421F-AE54-A2844D79924C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WDH-Publication-Downloader.Provider.Drivers", "WDH-Publication-Downloader.Provider.Drivers\WDH-Publication-Downloader.Provider.Drivers.csproj", "{85B3BC31-B733-4742-AC31-1C8D34724E1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WDH-Publication-Downloader.Provider.Kafka", "WDH-Publication-Downloader.Provider.Kafka\WDH-Publication-Downloader.Provider.Kafka.csproj", "{3929772B-BFBC-435D-9997-10306A71E510}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WDH-Publication-Downloader.Abstractions.AttachmentService", "WDH-Publication-Downloader.Abstractions.AttachmentService\WDH-Publication-Downloader.Abstractions.AttachmentService.csproj", "{E7BF260B-361A-41AA-A291-838FB148CAC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6D3C8A83-7508-4F63-9331-F3800BFD75DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{673E69D1-0618-4C37-B76E-296D0B8651E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673E69D1-0618-4C37-B76E-296D0B8651E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673E69D1-0618-4C37-B76E-296D0B8651E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673E69D1-0618-4C37-B76E-296D0B8651E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8217AB-B35D-4804-9974-526F7C2CF73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8217AB-B35D-4804-9974-526F7C2CF73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8217AB-B35D-4804-9974-526F7C2CF73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8217AB-B35D-4804-9974-526F7C2CF73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8ED9F15-CF7D-4331-841C-506C3DAD75ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8ED9F15-CF7D-4331-841C-506C3DAD75ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8ED9F15-CF7D-4331-841C-506C3DAD75ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8ED9F15-CF7D-4331-841C-506C3DAD75ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD269C7-FD98-421F-AE54-A2844D79924C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD269C7-FD98-421F-AE54-A2844D79924C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD269C7-FD98-421F-AE54-A2844D79924C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD269C7-FD98-421F-AE54-A2844D79924C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B3BC31-B733-4742-AC31-1C8D34724E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B3BC31-B733-4742-AC31-1C8D34724E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B3BC31-B733-4742-AC31-1C8D34724E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B3BC31-B733-4742-AC31-1C8D34724E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3929772B-BFBC-435D-9997-10306A71E510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3929772B-BFBC-435D-9997-10306A71E510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3929772B-BFBC-435D-9997-10306A71E510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3929772B-BFBC-435D-9997-10306A71E510}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7BF260B-361A-41AA-A291-838FB148CAC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BF260B-361A-41AA-A291-838FB148CAC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BF260B-361A-41AA-A291-838FB148CAC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BF260B-361A-41AA-A291-838FB148CAC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A67466FE-D2CA-453C-8369-4A4256D1F9FF} = {1C1BCF04-1781-4798-A73F-6A0F0F1FC72A}
+		{2D65042E-F668-4B78-BC52-CEB828090059} = {1C1BCF04-1781-4798-A73F-6A0F0F1FC72A}
+		{D2C2CA67-DAE7-4EE1-8D8B-5DD19DDA2C44} = {1C1BCF04-1781-4798-A73F-6A0F0F1FC72A}
+		{DEBC4174-ADF3-41A7-8EE8-1EE1F7803925} = {2D65042E-F668-4B78-BC52-CEB828090059}
+		{43BAF39D-7753-4390-9904-1B1E616188C4} = {2D65042E-F668-4B78-BC52-CEB828090059}
+		{673E69D1-0618-4C37-B76E-296D0B8651E1} = {A67466FE-D2CA-453C-8369-4A4256D1F9FF}
+		{CC8217AB-B35D-4804-9974-526F7C2CF73D} = {DEBC4174-ADF3-41A7-8EE8-1EE1F7803925}
+		{A8ED9F15-CF7D-4331-841C-506C3DAD75ED} = {43BAF39D-7753-4390-9904-1B1E616188C4}
+		{EBD269C7-FD98-421F-AE54-A2844D79924C} = {D2C2CA67-DAE7-4EE1-8D8B-5DD19DDA2C44}
+		{85B3BC31-B733-4742-AC31-1C8D34724E1C} = {D2C2CA67-DAE7-4EE1-8D8B-5DD19DDA2C44}
+		{3929772B-BFBC-435D-9997-10306A71E510} = {D2C2CA67-DAE7-4EE1-8D8B-5DD19DDA2C44}
+		{E7BF260B-361A-41AA-A291-838FB148CAC3} = {DEBC4174-ADF3-41A7-8EE8-1EE1F7803925}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5BDF6DF-2374-4EE7-AC1A-C1639DD50342}
+	EndGlobalSection
+EndGlobal
